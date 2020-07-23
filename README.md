@@ -34,6 +34,6 @@ testdata.json > stacker     # macOS, Linux, and other POSIX-compliant operating 
 This program will depend on [cJSON](https://github.com/DaveGamble/cJSON) library (included) for JSON parsing.
 
 ## Testing and Reporting Issues
-It is easy to write tests for this algorithm, even when using C. However, the test results may differ between changes and commits.
+It is easy to write tests for this algorithm, even when using C. However, the test results may differ between algorithm changes, project commits, and even test attempts.
 
-It is recommended to report issues ONLY where there are errors and gaps (shown as an asterisk "*" character) shown on the program output, rather than general differences within repeated test attempts. The algorithm is designed to randomly shuffle and stack cards, in order to provide a unique output for User Experience reasons.
+It is recommended to report issues ONLY where there are errors and gaps shown (as an asterisk `*` character) on the program output, rather than output differences between repeated test attempts. The algorithm is designed to randomly shuffle and stack cards, in order to provide a unique output for User Experience reasons.
